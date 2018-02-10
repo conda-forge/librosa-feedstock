@@ -1,6 +1,6 @@
-{% set version = "0.5.1" %}
+{% set version = "0.6.0rc0" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "4f09083acd9e6280387833ecfcb56e2c" %}
+{% set hash_val = "3e1cb0d99b2b7a9b32f3a4315895ed5a" %}
 
 package:
   name: librosa
@@ -12,7 +12,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -21,26 +21,26 @@ requirements:
     - setuptools
     - audioread >=2.0.0
     - numpy >=1.8.0
-    - scipy >=0.13.0
-    - scikit-learn >=0.14.0
+    - scipy >=0.14.0
+    - scikit-learn >=0.19.1
     - matplotlib >=1.5.0
     - joblib >=0.7.0
     - decorator >=3.0.0
     - six >=1.3
-    - resampy >=0.1.2
+    - resampy >=0.2.0
 
   run:
     - python
     - setuptools  # necessary for pkg_resources
     - audioread >=2.0.0
     - numpy >=1.8.0
-    - scipy >=0.13.0
-    - scikit-learn >=0.14.0
+    - scipy >=0.14.0
+    - scikit-learn >=0.19.1
     - matplotlib >=1.5.0
     - joblib >=0.7.0
     - decorator >=3.0.0
     - six >=1.3
-    - resampy >=0.1.2
+    - resampy >=0.2.0
 
 test:
   imports:
