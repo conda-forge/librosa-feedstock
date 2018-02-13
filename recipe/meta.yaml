@@ -1,6 +1,6 @@
-{% set version = "0.6.0rc0" %}
+{% set version = "0.6.0rc1" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "3e1cb0d99b2b7a9b32f3a4315895ed5a" %}
+{% set hash_val = "bbb59816d8422f0f9c6afe637fa4dc9d" %}
 
 package:
   name: librosa
@@ -12,7 +12,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
