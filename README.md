@@ -14,14 +14,16 @@ Summary: Python module for audio and music processing
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/librosa-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/librosa-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/librosa-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/librosa-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/librosa-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/librosa-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/librosa-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/librosa-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/librosa-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/librosa-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/librosa-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/librosa-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/librosa/badges/version.svg)](https://anaconda.org/conda-forge/librosa)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/librosa/badges/downloads.svg)](https://anaconda.org/conda-forge/librosa)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-librosa-green.svg)](https://anaconda.org/conda-forge/librosa) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/librosa.svg)](https://anaconda.org/conda-forge/librosa) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/librosa.svg)](https://anaconda.org/conda-forge/librosa) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/librosa.svg)](https://anaconda.org/conda-forge/librosa) |
 
 Installing librosa
 ==================
