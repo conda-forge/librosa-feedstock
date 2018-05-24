@@ -1,6 +1,6 @@
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "da224cb1c6ca681e4ad3104c3b2f2de7" %}
+{% set hash_val = "eb830f8e003d15cfc4258884f85e9847" %}
 
 package:
   name: librosa
@@ -19,15 +19,6 @@ requirements:
   build:
     - python
     - setuptools
-    - audioread >=2.0.0
-    - numpy >=1.8.0
-    - scipy >=0.14.0
-    - scikit-learn >=0.14.0,!=0.19.0
-    - matplotlib >=1.5.0
-    - joblib >=0.7.0
-    - decorator >=3.0.0
-    - six >=1.3
-    - resampy >=0.2.0
 
   run:
     - python
@@ -41,6 +32,7 @@ requirements:
     - decorator >=3.0.0
     - six >=1.3
     - resampy >=0.2.0
+    - numba >=0.38.0
 
 test:
   imports:
