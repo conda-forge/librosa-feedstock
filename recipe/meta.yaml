@@ -1,6 +1,6 @@
-{% set version = "0.6.2" %}
+{% set version = "0.6.3" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "70cd5e38baf1912d33b0b1fa1e097e30" %}
+{% set hash_val = "4c34bab5d199384b491ca0b8573bc881" %}
 
 package:
   name: librosa
@@ -27,7 +27,7 @@ requirements:
     - setuptools  # necessary for pkg_resources
     - audioread >=2.0.0
     - numpy >=1.8.0
-    - scipy >=0.14.0
+    - scipy >=1.0.0
     - scikit-learn >=0.14.0,!=0.19.0
     - matplotlib >=1.5.0
     - joblib >=0.12.0
