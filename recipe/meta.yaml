@@ -1,6 +1,6 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "baa1ef65242f6ea6b75f2ab2a52d804b" %}
+{% set hash_val = "3827d0e8fd5c79ae2f2918624da73a68" %}
 
 package:
   name: librosa
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
