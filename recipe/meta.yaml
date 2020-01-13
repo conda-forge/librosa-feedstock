@@ -1,6 +1,6 @@
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 {% set hash_type = "md5" %}
-{% set hash_val = "3827d0e8fd5c79ae2f2918624da73a68" %}
+{% set hash_val = "bb8d594bfde1c9fad93c7aad3720be48" %}
 
 package:
   name: librosa
