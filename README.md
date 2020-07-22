@@ -5,7 +5,7 @@ Home: http://github.com/librosa/librosa
 
 Package license: ISC
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python module for audio and music processing
 
