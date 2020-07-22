@@ -1,6 +1,5 @@
-{% set version = "0.7.2" %}
-{% set hash_type = "md5" %}
-{% set hash_val = "bb8d594bfde1c9fad93c7aad3720be48" %}
+{% set version = "0.8.0" %}
+{% set hash_val = "250dc5ddd795482866ce2ac2ab9e625d" %}
 
 package:
   name: librosa
@@ -9,11 +8,11 @@ package:
 source:
   fn: librosa-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/l/librosa/librosa-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash_val }}
+  md5: {{ hash_val }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -48,7 +47,7 @@ test:
 about:
   home: http://github.com/librosa/librosa
   license: ISC
-  summary: 'Python module for audio and music processing'
+  summary: Python module for audio and music processing
 
 extra:
   recipe-maintainers:
