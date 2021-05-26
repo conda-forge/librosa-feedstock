@@ -1,5 +1,5 @@
-{% set version = "0.8.0" %}
-{% set hash_val = "250dc5ddd795482866ce2ac2ab9e625d" %}
+{% set version = "0.8.1" %}
+{% set hash_val = "f2ea5cd26574e58d7ea0c24dbeea25de" %}
 
 package:
   name: librosa
@@ -31,10 +31,9 @@ requirements:
     - joblib >=0.14.0
     - matplotlib-base >=1.5.0
     - decorator >=3.0.0
-    - six >=1.3
     - resampy >=0.2.2
     - numba >=0.43.0
-    - pysoundfile >=0.9.0
+    - pysoundfile >=0.10.2
     - pooch >=1.0
 
 test:
