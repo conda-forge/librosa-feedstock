@@ -37,7 +37,7 @@ requirements:
     - packaging >=20.0
     - soxr-python >=0.3.2
     - lazy_loader >=0.1
-    - msgpack >=1.0
+    - msgpack-python >=1.0
 
 test:
   imports:
