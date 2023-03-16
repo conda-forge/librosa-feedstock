@@ -1,11 +1,11 @@
-About librosa
-=============
+About librosa-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/librosa-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/librosa/librosa
 
 Package license: ISC
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/librosa-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python module for audio and music processing
 
