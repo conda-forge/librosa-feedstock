@@ -1,5 +1,5 @@
-{% set version = "0.10.0" %}
-{% set hash_val = "989258965797d70420337cf0bcdbbc7f" %}
+{% set version = "0.10.0.post1" %}
+{% set hash_val = "2cd9ffd4e41bf6df65c04a6890aa583a" %}
 
 package:
   name: librosa
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
