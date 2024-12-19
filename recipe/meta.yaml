@@ -7,23 +7,23 @@ package:
 
 source:
   fn: librosa-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/l/librosa/librosa-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/l/librosa/librosa-{{ version }}.tar.gz
   md5: {{ hash_val }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=48
     - wheel >=0.29.0
 
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - audioread >=2.1.9
     - numpy >=1.20.3, !=1.22.0, !=1.22.1, !=1.22.2
     - scipy >=1.2.0
@@ -41,6 +41,8 @@ requirements:
     - typing_extensions >=4.1.1
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - librosa
     - librosa.core
